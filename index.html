@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognifyz | API Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="hero">
+        <nav>
+            <div class="logo">API<span>Explorer.</span></div>
+            <span class="nav-label">TASK 05 · COGNIFYZ</span>
+        </nav>
+
+        <div class="hero-content">
+            <span class="eyebrow">YOUR WINDOW TO THE WEB</span>
+            <h1>Discover data.<br><span>Build something great.</span></h1>
+            <p>Explore real-time API requests and discover interesting sample posts fetched from the web.</p>
+            <button id="loadButton">Explore Posts <span>→</span></button>
+        </div>
+        <div class="hero-decoration">API</div>
+    </header>
+
+    <main>
+        <section class="section-heading">
+            <div>
+                <span class="eyebrow">POWERED BY JSONPLACEHOLDER</span>
+                <h2>Explore the Feed</h2>
+                <p>Sample posts fetched directly from a public API.</p>
+            </div>
+            <span class="count" id="postCount">0 POSTS</span>
+        </section>
+
+        <p id="status" role="status">Loading posts...</p>
+        <section id="postsContainer" class="posts-grid"></section>
+    </main>
+
+    <footer>
+        <p>Designed & built while learning Front-End Development</p>
+        <span>COGNIFYZ TECHNOLOGIES · 2026</span>
+    </footer>
+</body>
+</html>
